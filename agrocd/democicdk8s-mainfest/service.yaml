@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-k8s
+  name: democicdk8s
 spec:
   ports:
   - port: 5000  
