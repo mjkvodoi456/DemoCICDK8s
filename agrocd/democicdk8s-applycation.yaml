@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd/democicdk8s-manifest
+    path: agrocd/democicdk8s-manifest
     repoURL: https://github.com/mjkvodoi456/DemoCICDK8s.git
     targetRevision: HEAD
   syncPolicy: {}
