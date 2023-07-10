@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: democicdk8s
+  name: democicdk8s
+  namespace: default 
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: democicdk8s
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: democicdk8s
+    spec:
+      containers:
+      - image: mjkvodoi456/democicdk8s 
+        imagePullPolicy: Always
+        name: democicdk8s
+        resources:
+          requests:
+            cpu: 50m
+            memory: 256Mi
