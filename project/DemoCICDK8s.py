@@ -6,4 +6,4 @@ app = Flask(__name__)
 
 def hello():
 
-    return "Demo CICD with K8s!"
+    return "Devil may cry s5"
