@@ -58,4 +58,4 @@ jobs:
 
           push: true
 
-          tags: mjkvodoi456/democicdk8s:2.0
+          tags: mjkvodoi456/democicdk8s:3.0
