@@ -21,7 +21,7 @@ spec:
         app: democicdk8s
     spec:
       containers:
-      - image: mjkvodoi456/democicdk8s:1.0
+      - image: mjkvodoi456/democicdk8s:2.0
         imagePullPolicy: Always
         name: democicdk8s
         resources:
