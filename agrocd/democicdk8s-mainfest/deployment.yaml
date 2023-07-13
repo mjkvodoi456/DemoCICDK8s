@@ -6,7 +6,7 @@ metadata:
   name: democicdk8s
   namespace: default 
 spec:
-  replicas: 6
+  replicas: 3
   selector:
     matchLabels:
       app: democicdk8s
